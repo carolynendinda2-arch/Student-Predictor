@@ -127,11 +127,4 @@ if st.button("🔮 Predict Student Outcome", type="primary"):
     result = model.predict(input_data)[0]
     prob = model.predict_proba(input_data)[0][1]
     
-    if result == 1:
-        st.success(f"✅ **Student is likely to PASS**")
-        st.info(f"Confidence: **{prob:.1%}**")
-    else:
-        st.error(f"❌ **Student is likely to FAIL**")
-        st.info(f"Confidence: **{(1-prob):.1%}**")
-
-st.caption("Note: This is a demonstration model. Accuracy depends heavily on your dataset.")
+    if result =
