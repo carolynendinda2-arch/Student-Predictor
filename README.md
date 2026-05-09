@@ -5,7 +5,7 @@
 # =============================================
 
 # Install dependencies
-!pip install streamlit pyngrok -q
+
 
 import streamlit as st
 import pandas as pd
